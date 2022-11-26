@@ -1,0 +1,124 @@
+* {
+    margin: 0px;
+    border: 0px
+}
+
+
+h3 {
+    font-family: "sofia";
+    font-size: 28px;
+    cursor: pointer;
+
+}
+
+body {
+    background-image: url(https://images.unsplash.com/photo-1499750310107-5fef28a66643?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header {
+    height: 06vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+}
+
+ul li a {
+    padding: 0px 25px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 17px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+    display: inline-block;
+}
+
+ul li a:hover {
+    color: rgb(233, 235, 236);
+}
+
+li a::after {
+    content: '';
+    display: block;
+    height: 2px;
+    width: 0px;
+    background-color: white;
+    transition: .4s
+}
+
+li a:hover::after {
+    width: 100%;
+}
+
+.btn {
+    padding: 2px 6px;
+    border-radius: 10px;
+    width: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(184, 119, 35);
+    color: white;
+    font-size: 17px;
+    cursor: pointer;
+    margin-left: 5px;
+    outline: none;
+}
+
+.btn:hover {
+    color: burlywood;
+    transform: translateX(-5px);
+    transition: .3s;
+}
+
+.btn2 {
+    background-color: black;
+    border-radius: 15px 15px 15px 15px;
+    padding: 09px;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.btn2:hover {
+    transform: translateY(-6px);
+    transition: .3s;
+    box-shadow: 0px 10px 20px 0px rgba(172, 127, 32, 0.6);
+}
+
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+.mainb {
+    position: absolute;
+    margin-top: 100px;
+    text-align: center;
+    font-size: 30px;
+    color: rgb(235, 232, 232);
+}
+
+.fp {
+    font-size: 22px;
+    font-size: bold;
+}
+
+
+.h1-2 {
+    margin-left: 10px;
+}
+
+footer {
+    margin-top: 592px;
+    text-align: center;
+    color: rgb(3, 2, 2);
+    font-size: 20px;
+    font-size: bold;
+}
